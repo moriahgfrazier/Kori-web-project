@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----Home page---- */
+body {
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #333;
+    font-family: "Playfair", serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #EFEFEC;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+}
+.menu a {
+    text-decoration: solid;
+    color:#79a081;
+    font-size: 1.5rem;
+}
+
+.menu a:hover {
+    color:#79a081;
+}
+
+header img {
+    margin-bottom: 10px;
+    width: 120px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+header p {
+    font-size: 1.75rem;
+    color: #666;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    text-align:center;
+}
+
+.hero {
+    width: 100%; 
+    height: 500px;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.35)
+    ), url("Images/Korifrazierphotography-1531.jpg");
+    background-size: cover;
+    background-position: 40% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Playfair", serif;
+}
+
+h1, h2, h3 {
+    color: #79a081;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    max width: 700px;
+    text-align: center;
+}
+
+/*---Gallery page---*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*---Contact page---*/
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #79a081;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #79a081;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #79a081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Playfair", serif;
+}
+
+button:hover {
+    background-color: #679370;
+}
